@@ -1,5 +1,5 @@
 [package]
-name = "rock_paper_scissors"
+name = "doublewordle"
 authors = ["Joshua Rutz <joshrutz989@gmail.com>"]
 version = "0.1.0"
 edition = "2021"
@@ -7,5 +7,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+axum = "0.7.5"
+dioxus = "0.4.3"
 serde = { version = "*", features = ["derive"] }
 serde_json = "*"
+surrealdb = "1.3.1"
+tokio = { version = "1.36.0", features = ["full"] }
